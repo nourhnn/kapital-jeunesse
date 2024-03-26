@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+/*Debut partie header : Noussaiba*/
+.nav-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+.nav-desktop ul{
+    display: flex;
+    justify-content: space-around;
+    width: 24%;
+}
+
+.nav-desktop ul li {
+    list-style: none;
+}
+
+.nav-desktop ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.header-accueil img{
+    width: 50rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+  
