@@ -11,6 +11,24 @@ body {
   }
 
 /*Debut partie header : Noussaiba*/
+/*Debut partie triangle : Noussaiba*/
+
+.triangle-down {
+
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 51rem 55rem 0rem 54rem;
+    border-color: #7a609063 transparent transparent transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: -10;
+}
+
+/*Fin partie triangle : Noussaiba*/
+
+/*Debut partie nav : Noussaiba*/
+
 .nav-desktop {
     display: flex;
     justify-content: space-around;
@@ -35,10 +53,157 @@ body {
     font-size: 1.5rem;
 }
 
-.header-accueil img{
-    width: 50rem;
-    height: auto;
+/*Fin partie nav : Noussaiba*/
+
+/*Debut partie logo : Noussaiba*/
+
+.logo-accueil {
     display: flex;
     justify-content: center;
 }
-  
+
+.logo-accueil img {
+    width: 30rem;
+    height: auto;
+}
+
+/*Fin partie logo : Noussaiba*/
+
+/*Debut partie home-cards : Noussaiba*/
+
+.home-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-cards div {
+    background-color: #ffffff;
+    width: 17rem;
+    height: 17rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    -webkit-box-shadow: -4px 5px 15px -4px #000000; 
+    box-shadow: -4px 5px 15px -4px #000000
+}
+
+.home-cards div img {
+    width: 10rem;
+    height: auto;
+   
+}
+
+/*Fin partie home-cards : Noussaiba*/
+
+/* Fin partie header : Noussaiba*/
+
+/*Debut partie Main : Celia et Noussaiba*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11rem;
+}
+.container {
+    text-align: center;
+    max-width: 37.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem; 
+    padding: 0rem;
+}
+
+section {
+    padding: 5.5rem;
+}
+#kapital {
+    color: rgba(84, 43, 114, 0.69);
+}
+.texte-accueil {
+    width: 37.5rem;
+    text-align: center;
+}
+.btn-accueil {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: rgba(84, 43, 114, 0.69);
+    color: #fff;
+    border-radius: 1.875rem;
+    border: transparent;
+    font-size: 1em;
+}
+.section-accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    flex-wrap: wrap;
+}
+.img-accueil {
+    width: 18.75rem;
+    height: 25rem;
+    object-fit: cover;
+}
+.texte-btn {
+    text-align: center;
+    max-width: 37.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem; 
+    padding: 1.25rem;
+}
+
+/*Fin partie Main : Celia et Noussaiba*/
+
+/*Debut partie footer : Noussaiba*/
+
+footer {
+    background-color: #7a609063;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    padding: 0.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-logo img {
+    width: 9rem; 
+}
+
+.footer-social i {
+    font-size: 2.5rem;
+    color: #000;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.footer-bottom {
+    font-size: 1rem;
+}
+
