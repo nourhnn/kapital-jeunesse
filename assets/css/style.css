@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
   }
 
+/*Debut page Accueil : Noussaiba et Celia*/
 /*Debut partie header : Noussaiba*/
 /*Debut partie triangle : Noussaiba*/
 
@@ -25,8 +26,8 @@ body {
     z-index: -10;
 }
 
-/*Fin partie triangle : Noussaiba*/
 
+/*Debut partie header accueil : Noussaiba*/
 /*Debut partie nav : Noussaiba*/
 
 .nav-desktop {
@@ -207,3 +208,160 @@ footer {
     font-size: 1rem;
 }
 
+/*Fin partie footer : Noussaiba*/
+
+/*Fin page Accueil : Noussaiba et Celia*/
+
+/*Debut page Contact : Noussaiba et Celia*/
+
+
+    /*Debut partie Main : Noussaiba*/
+
+    .container-contact {
+        text-align: center;
+        max-width: 37.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.875rem; 
+        padding-top: 10rem;
+    }
+
+    .container-contact h2 {
+        color: rgba(84, 43, 114, 0.69);
+        font-size: 4rem;
+    }
+
+
+    /*Debut partie formulaire : Noussaiba*/
+
+    .form-container {
+        background: #fff;
+        border-radius: 6rem;
+        overflow: hidden;
+        border: 1px solid rgba(84, 43, 114, 0.69);
+        padding: 4rem;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+        width: 45rem;
+        margin: 0 auto;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    
+    .form-group-name input[type="text"] {
+        font-size: 1.2rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 1.5rem;
+        width: 18.2rem;
+    }
+    
+    .form-group-name {
+        padding-bottom: 2rem;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select,
+    .form-group textarea {
+        font-size: 1.2rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 1.5rem;
+    }
+.form-group textarea {
+    resize: none; / Disables the ability to manually resize the textarea */
+}
+.form-group input[type="submit"] {
+    color: black;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-group input[type="submit"]:hover {
+    background: rgba(84, 43, 114, 0.69);
+}
+
+/*Fin partie formulaire : Noussaiba*/
+
+/*Fin partie FAQ : Noussaiba*/
+
+.faq .faq-title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: var(--text);
+}
+
+.faq-container {
+    max-width: 50vw;
+    padding: 2vh 2vh 2vh 2vh;
+    background: rgba( 255, 255, 255, 0.15 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.faq-question span {
+    font-size: clamp(14px, 3.5vw, 34px);
+}
+
+.faq-question{
+    color: var(--text);
+}
+
+.faq-question button {
+    border-radius: 0.8rem;
+    position: relative; 
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    margin: 4px;
+    border: none;
+    outline: none;
+    font-size: clamp(14px, 4vw, 30px);
+    font-weight: 700;
+    cursor: pointer;
+    background: var(--primary);
+    color: black;
+    background-color: yellow;
+}
+
+
+
+.faq-question p{
+    font-size: clamp(14px, 3vw, 22px);
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all .6s ease;
+}
+
+.faq-question p.show{
+    max-height: 200px;
+    opacity: 1;
+    padding: 30px 15px 30px 15px;
+
+}
+
+.faq-question button .rotate{
+    transition: 0.3s;
+    transform: rotate(180deg);
+}
